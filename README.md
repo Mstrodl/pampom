@@ -33,5 +33,5 @@ This configuration will let you attempt facial recognition, fingerprint, and nor
 All you should need is:
 ```
 cargo build --release
-sudo cp target/release/libpam_pampom.so /usr/lib/pam_pampom.so
+sudo cp target/release/libpam_pampom.so /usr/lib/security/pam_pampom.so
 ```
